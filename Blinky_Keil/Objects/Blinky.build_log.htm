@@ -21,13 +21,22 @@ Target DLL:      Segger\JL2CM3.dll V2.99.26.0
 Dialog DLL:      TARMCM1.DLL V1.13.0.0
  
 <h2>Project:</h2>
-C:\Users\lewis\Documents\Part III\COMP3215\COMP3215-Lab-1\Blinky\Blinky.uvprojx
+C:\Users\lewis\Documents\Part III\COMP3215\COMP3215-Lab-1\Blinky_Keil\Blinky.uvprojx
 Project File Date:  11/10/2017
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 5 (build 528)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'Target 1'
-compiling main.c...
+assembling startup_MKW41Z4.s...
+compiling list.c...
+compiling queue.c...
+compiling heap_4.c...
+compiling port.c...
+compiling freertos_evr.c...
+compiling tasks.c...
+compiling LED_FRDM-KW41Z.c...
+compiling timers.c...
+compiling system_MKW41Z4.c...
 linking...
 Program Size: Code=8236 RO-data=272 RW-data=112 ZI-data=5456  
 ".\Objects\Blinky.axf" - 0 Error(s), 0 Warning(s).
@@ -76,8 +85,8 @@ Package Vendor: Keil
 <h2>Collection of Component Files used:</h2>
 
    * Component: Keil::Device:Startup:1.0.0
-      Include file:  Device\Source\system_MKW41Z4.h
       Source file:   Device\Source\ARM\startup_MKW41Z4.s
+      Include file:  Device\Source\system_MKW41Z4.h
       Source file:   Device\Source\system_MKW41Z4.c
 
    * Component: Keil.FRDM-KW41Z::Board Support:LED:1.0.0
@@ -86,30 +95,30 @@ Package Vendor: Keil
    * Component: ARM::CMSIS:CORE:5.0.2
 
    * Component: ARM.FreeRTOS::RTOS:Timers:9.0.0
-      Source file:   Source\timers.c
       Include file:  Source\include\timers.h
+      Source file:   Source\timers.c
 
    * Component: ARM.FreeRTOS::RTOS:Heap:Heap_4:9.0.0
       Source file:   Source\portable\MemMang\heap_4.c
 
    * Component: ARM.FreeRTOS::RTOS:Core:9.0.0
+      Include file:  CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h
+      Source file:   CMSIS\RTOS2\FreeRTOS\Source\freertos_evr.c
       Include file:  Source\include\task.h
       Include file:  Source\include\FreeRTOS.h
-      Source file:   Source\tasks.c
       Include file:  Source\include\queue.h
-      Source file:   Source\list.c
       Include file:  Source\include\semphr.h
+      Source file:   Source\list.c
+      Source file:   Source\tasks.c
       Source file:   Source\queue.c
       Source file:   Source\portable\RVDS\ARM_CM0\port.c
-      Source file:   CMSIS\RTOS2\FreeRTOS\Source\freertos_evr.c
-      Include file:  CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h
 
    * Component: ARM.FreeRTOS::RTOS:Config:FreeRTOS:9.0.0
       Include file:  Config\ARMCM\FreeRTOSConfig.h
 
    * Component: ::Board Support:LED:1.0.0 (API)
       Include file:  Board\Board_LED.h
-Build Time Elapsed:  00:00:01
+Build Time Elapsed:  00:00:05
 </pre>
 </body>
 </html>
