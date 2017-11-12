@@ -41,6 +41,7 @@ portTickType Ticks(const float s)
 
 /*	Task priorities.			*/
 #define 		led_task1_PRIORITY 	(configMAX_PRIORITIES - 1)
+#define 		led_task2_PRIORITY 	(configMAX_PRIORITIES - 2)
 
 /*!
  * @brief Task responsible for printing of "Hello world." message.
@@ -50,10 +51,21 @@ static void		led_task1(void *pv)
 	uint8_t i;
 	for(i=0;;i++) 
 	{
-		GPIO_WritePinOutput(led_gpio[i%4], led_pins[i%4], 0);
-		vTaskDelay( Ticks(0.8) );
-		GPIO_WritePinOutput(led_gpio[i%4], led_pins[i%4], 1);
-		vTaskDelay( Ticks(0.4) );
+		GPIO_WritePinOutput(led_gpio[i%3], led_pins[i%3], 0);
+		vTaskDelay( Ticks(0.1) );
+		GPIO_WritePinOutput(led_gpio[i%3], led_pins[i%3], 1);
+		vTaskDelay( Ticks(0.9) );
+	}
+}
+
+static void		led_task2(void *pv)
+{
+	for(;;)
+	{
+		GPIO_WritePinOutput(led_gpio[3], led_pins[3], 0);
+		vTaskDelay( Ticks(0.5) );
+		GPIO_WritePinOutput(led_gpio[3], led_pins[3], 1);
+		vTaskDelay( Ticks(0.5) );
 	}
 }
 
@@ -76,6 +88,13 @@ int 			main(void)
 					configMINIMAL_STACK_SIZE,
 					NULL,
 					led_task1_PRIORITY,
+					NULL					);
+	
+	xTaskCreate(	led_task2,
+					"led_task2",
+					configMINIMAL_STACK_SIZE,
+					NULL,
+					led_task2_PRIORITY,
 					NULL					);
 	
 	vTaskStartScheduler();

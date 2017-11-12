@@ -4,7 +4,9 @@ OBJCOPY 	= arm-none-eabi-objcopy
 
 SRC 		= 
 BUILD 		= Build
-NAME		= $(BUILD)/Blinky
+name		= Blinky
+NAME		= $(BUILD)/$(name)
+FLASH		= E:\
 
 ## Platform and optimization options
 AFLAGS		= -mthumb -mcpu=cortex-m0plus
@@ -45,7 +47,11 @@ $(NAME).elf: $(obj)
 	
 %.o: %.S
 	$(CC) -c $(CFLAGS) $(INC) $^ -o $@
-	
+
+.PHONY: flash
+flash:
+	copy /y $(BUILD)\$(name).bin $(FLASH)
+
 .PHONY: clean
 clean:
 	del $(NAME).bin $(NAME).elf

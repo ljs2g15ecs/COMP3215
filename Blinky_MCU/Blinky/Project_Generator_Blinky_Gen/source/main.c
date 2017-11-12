@@ -41,6 +41,7 @@ portTickType Ticks(const float s)
 
 /*	Task priorities.			*/
 #define 		led_task1_PRIORITY 	(configMAX_PRIORITIES - 1)
+#define 		led_task2_PRIORITY 	(configMAX_PRIORITIES - 2)
 
 /*!
  * @brief Task responsible for printing of "Hello world." message.
@@ -48,12 +49,23 @@ portTickType Ticks(const float s)
 static void		led_task1(void *pv)
 {
 	uint8_t i;
-	for(i=0;;i++)
+	for(i=0;;i++) 
 	{
-		GPIO_WritePinOutput(led_gpio[i%4], led_pins[i%4], 0);
-		vTaskDelay( Ticks(0.9) );
-		GPIO_WritePinOutput(led_gpio[i%4], led_pins[i%4], 1);
+		GPIO_WritePinOutput(led_gpio[i%3], led_pins[i%3], 0);
 		vTaskDelay( Ticks(0.1) );
+		GPIO_WritePinOutput(led_gpio[i%3], led_pins[i%3], 1);
+		vTaskDelay( Ticks(0.9) );
+	}
+}
+
+static void		led_task2(void *pv)
+{
+	for(;;)
+	{
+		GPIO_WritePinOutput(led_gpio[3], led_pins[3], 0);
+		vTaskDelay( Ticks(1.1) );
+		GPIO_WritePinOutput(led_gpio[3], led_pins[3], 1);
+		vTaskDelay( Ticks(0.9) );
 	}
 }
 
@@ -66,10 +78,10 @@ int 			main(void)
 	BOARD_InitBootPins();
 	BOARD_InitBootClocks();
 	BOARD_InitDebugConsole();
-
+	
 	/*	Add your code here		*/
 	GPIO_Init();
-
+	
 	/*	Create RTOS task		*/
 	xTaskCreate(	led_task1,
 					"led_task1",
@@ -77,7 +89,14 @@ int 			main(void)
 					NULL,
 					led_task1_PRIORITY,
 					NULL					);
-
+	
+	xTaskCreate(	led_task2,
+					"led_task2",
+					configMINIMAL_STACK_SIZE,
+					NULL,
+					led_task2_PRIORITY,
+					NULL					);
+	
 	vTaskStartScheduler();
 
 	for(;;)		{	__asm("NOP");			}
