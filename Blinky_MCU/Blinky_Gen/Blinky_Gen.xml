@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ksdk:examples xmlns:ksdk="http://nxp.com/ksdk/2.0/ksdk_manifest_v3.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://nxp.com/ksdk/2.0/ksdk_manifest_v3.0.xsd manifest.xsd">
+  <externalDefinitions>
+    <definition extID="com.nxp.mcuxpresso"/>
+    <definition extID="mcuxpresso"/>
+    <definition extID="compiler_gcc"/>
+    <definition extID="CMSIS_Include"/>
+    <definition extID="MKW41Z512xxx4"/>
+    <definition extID="core0_MKW41Z512xxx4"/>
+    <definition extID="frdmkw41z"/>
+    <definition extID="middleware.freertos.MKW41Z4"/>
+    <definition extID="middleware.template_application.freertos.MKW41Z4"/>
+    <definition extID="platform.CMSIS_Driver_Include.MKW41Z4"/>
+    <definition extID="platform.drivers.clock.MKW41Z4"/>
+    <definition extID="platform.drivers.common.MKW41Z4"/>
+    <definition extID="platform.drivers.gpio.MKW41Z4"/>
+    <definition extID="platform.drivers.lpuart.MKW41Z4"/>
+    <definition extID="platform.drivers.port.MKW41Z4"/>
+    <definition extID="platform.utilities.debug_console.MKW41Z4"/>
+    <definition extID="startup"/>
+  </externalDefinitions>
+  <example board="frdmkw41z" category="Project_Generator" dependency="CMSIS_Include middleware.freertos.MKW41Z4 middleware.template_application.freertos.MKW41Z4 platform.CMSIS_Driver_Include.MKW41Z4 platform.drivers.clock.MKW41Z4 platform.drivers.common.MKW41Z4 platform.drivers.gpio.MKW41Z4 platform.drivers.lpuart.MKW41Z4 platform.drivers.port.MKW41Z4 platform.utilities.debug_console.MKW41Z4 startup" device_core="core0_MKW41Z512xxx4" id="Blinky_Gen" name="Blinky_Gen">
+    <defines>
+      <define name="SDK_CORE_ID_CORE0" value=""/>
+    </defines> <!--toolchain="mcuxpresso"--> 
+    <projects>
+      <project nature="org.eclipse.cdt.core.cnature" type="com.crt.advproject.projecttype.exe"/>
+    </projects>
+    <source path="board/board.c" target_path="board" type="src">
+      <files mask="board.c"/>
+    </source>
+    <source path="board/board.h" target_path="board" type="c_include">
+      <files mask="board.h"/>
+    </source>
+    <source path="board/clock_config.c" target_path="board" type="src">
+      <files mask="clock_config.c"/>
+    </source>
+    <source path="board/clock_config.h" target_path="board" type="c_include">
+      <files mask="clock_config.h"/>
+    </source>
+    <source path="board/pin_mux.c" target_path="board" type="src">
+      <files mask="pin_mux.c"/>
+    </source>
+    <source path="board/pin_mux.h" target_path="board" type="c_include">
+      <files mask="pin_mux.h"/>
+    </source>
+    <source path="freertos/FreeRTOSConfig.h" target_path="freertos" type="c_include">
+      <files mask="FreeRTOSConfig.h"/>
+    </source>
+    <source path="freertos/heap_4.c" target_path="freertos" type="src">
+      <files mask="heap_4.c"/>
+    </source>
+    <source path="source/main.c" target_path="source" type="src">
+      <files mask="main.c"/>
+    </source>
+  </example>
+</ksdk:examples>

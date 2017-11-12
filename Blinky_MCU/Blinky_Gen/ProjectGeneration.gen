@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding= "UTF-8" ?>
+<ProjectGenerationInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <README>### The file contains information about project generation by the tool. Do not remove to allow proper updates. ###</README>
+   <platform>
+      <processor>MKW41Z512xxx4</processor>
+      <part_number>MKW41Z512VHT4</part_number>
+      <core>core0_MKW41Z512xxx4</core>
+      <core_role>primary</core_role>
+      <board></board>
+      <example></example>
+   </platform>
+   <settings>
+      <toolchain>mcuxpresso</toolchain>
+      <prj_type>.c</prj_type>
+      <prj_name>Blinky_Gen</prj_name>
+      <rtos>middleware.freertos</rtos>
+   </settings>
+   <sdk version="" cfg_hash="">
+      <sdk_file rel_prj_file_path="freertos/FreeRTOSConfig.h" rel_src_file_path="rtos/freertos_9.0.0/template_application/ARM_CM0/FreeRTOSConfig.h"/>
+      <sdk_file rel_prj_file_path="freertos/heap_4.c" rel_src_file_path="rtos/freertos_9.0.0/Source/portable/MemMang/heap_4.c"/>
+   </sdk>
+   <build_options>
+      <define>SDK_CORE_ID_CORE0</define>
+      <incl_path>board</incl_path>
+      <incl_path>freertos</incl_path>
+   </build_options>
+</ProjectGenerationInfo>

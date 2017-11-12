@@ -1,0 +1,6 @@
+15:49:44 **** Clean-only build of configuration Debug for project Blinky_MCU ****
+make -r -j8 clean 
+make: *** No rule to make target `clean'.  Stop.
+
+15:49:44 Build Finished (took 297ms)
+
