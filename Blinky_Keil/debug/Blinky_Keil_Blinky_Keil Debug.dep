@@ -1,0 +1,399 @@
+Dependencies for Project 'Blinky_Keil', Target 'Blinky_Keil Debug': (DO NOT MODIFY !)
+F (board/board.c)(0x5A087592)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I CMSIS -I board -I drivers -I freertos -I startup -I utilities --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -I.\RTE\_Blinky_Keil_Debug-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMKW41Z512xxx4 -DDEBUG -DCPU_MKW41Z512VHT4 -DCPU_MKW41Z512VHT4_cm0plus -DFSL_RTOS_FREE_RTOS -DSDK_CORE_ID_CORE0 -DSDK_OS_FREE_RTOS-o debug\board.o --omf_browse debug\board.crf --depend debug\board.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
+I (board/board.h)(0x5A087592)
+F (board/board.h)(0x5A087592)()
+F (board/clock_config.c)(0x5A087589)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I CMSIS -I board -I drivers -I freertos -I startup -I utilities --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -I.\RTE\_Blinky_Keil_Debug-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMKW41Z512xxx4 -DDEBUG -DCPU_MKW41Z512VHT4 -DCPU_MKW41Z512VHT4_cm0plus -DFSL_RTOS_FREE_RTOS -DSDK_CORE_ID_CORE0 -DSDK_OS_FREE_RTOS-o debug\clock_config.o --omf_browse debug\clock_config.crf --depend debug\clock_config.d)
+I (board/clock_config.h)(0x5A087589)
+I (drivers\fsl_common.h)(0x5A087591)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BE5B4)
+I (CMSIS\fsl_device_registers.h)(0x5A087590)
+I (CMSIS\MKW41Z4.h)(0x5A087592)
+I (CMSIS\core_cm0plus.h)(0x5A087591)
+I (CMSIS\core_cmInstr.h)(0x5A08758F)
+I (CMSIS\cmsis_armcc.h)(0x5A087591)
+I (CMSIS\core_cmFunc.h)(0x5A087590)
+I (CMSIS\system_MKW41Z4.h)(0x5A087590)
+I (CMSIS\MKW41Z4_features.h)(0x5A087590)
+I (drivers\fsl_clock.h)(0x5A087591)
+F (board/clock_config.h)(0x5A087589)()
+F (board/pin_mux.c)(0x5A087589)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I CMSIS -I board -I drivers -I freertos -I startup -I utilities --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -I.\RTE\_Blinky_Keil_Debug-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMKW41Z512xxx4 -DDEBUG -DCPU_MKW41Z512VHT4 -DCPU_MKW41Z512VHT4_cm0plus -DFSL_RTOS_FREE_RTOS -DSDK_CORE_ID_CORE0 -DSDK_OS_FREE_RTOS-o debug\pin_mux.o --omf_browse debug\pin_mux.crf --depend debug\pin_mux.d)
+I (drivers\fsl_common.h)(0x5A087591)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BE5B4)
+I (CMSIS\fsl_device_registers.h)(0x5A087590)
+I (CMSIS\MKW41Z4.h)(0x5A087592)
+I (CMSIS\core_cm0plus.h)(0x5A087591)
+I (CMSIS\core_cmInstr.h)(0x5A08758F)
+I (CMSIS\cmsis_armcc.h)(0x5A087591)
+I (CMSIS\core_cmFunc.h)(0x5A087590)
+I (CMSIS\system_MKW41Z4.h)(0x5A087590)
+I (CMSIS\MKW41Z4_features.h)(0x5A087590)
+I (drivers\fsl_clock.h)(0x5A087591)
+I (drivers\fsl_port.h)(0x5A087590)
+I (board/pin_mux.h)(0x5A087589)
+F (board/pin_mux.h)(0x5A087589)()
+F (CMSIS/arm_common_tables.h)(0x5A087590)()
+F (CMSIS/arm_const_structs.h)(0x5A08758D)()
+F (CMSIS/arm_math.h)(0x5A087592)()
+F (CMSIS/cmsis_armcc.h)(0x5A087591)()
+F (CMSIS/cmsis_armcc_V6.h)(0x5A087591)()
+F (CMSIS/cmsis_gcc.h)(0x5A087590)()
+F (CMSIS/core_cm0plus.h)(0x5A087591)()
+F (CMSIS/core_cmFunc.h)(0x5A087590)()
+F (CMSIS/core_cmInstr.h)(0x5A08758F)()
+F (CMSIS/core_cmSimd.h)(0x5A08758F)()
+F (CMSIS/fsl_device_registers.h)(0x5A087590)()
+F (CMSIS/MKW41Z4.h)(0x5A087592)()
+F (CMSIS/MKW41Z4_features.h)(0x5A087590)()
+F (CMSIS/system_MKW41Z4.c)(0x5A08758F)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I CMSIS -I board -I drivers -I freertos -I startup -I utilities --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -I.\RTE\_Blinky_Keil_Debug-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMKW41Z512xxx4 -DDEBUG -DCPU_MKW41Z512VHT4 -DCPU_MKW41Z512VHT4_cm0plus -DFSL_RTOS_FREE_RTOS -DSDK_CORE_ID_CORE0 -DSDK_OS_FREE_RTOS-o debug\system_mkw41z4.o --omf_browse debug\system_mkw41z4.crf --depend debug\system_mkw41z4.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
+I (CMSIS/fsl_device_registers.h)(0x5A087590)
+I (CMSIS/MKW41Z4.h)(0x5A087592)
+I (CMSIS/core_cm0plus.h)(0x5A087591)
+I (CMSIS/core_cmInstr.h)(0x5A08758F)
+I (CMSIS/cmsis_armcc.h)(0x5A087591)
+I (CMSIS/core_cmFunc.h)(0x5A087590)
+I (CMSIS/system_MKW41Z4.h)(0x5A087590)
+I (CMSIS/MKW41Z4_features.h)(0x5A087590)
+F (CMSIS/system_MKW41Z4.h)(0x5A087590)()
+F (doc/freertos/portable/readme.txt)(0x5A087590)()
+F (doc/freertos/source/readme.txt)(0x5A087591)()
+F (drivers/Driver_CAN.h)(0x5A087591)()
+F (drivers/Driver_Common.h)(0x5A087591)()
+F (drivers/Driver_ETH.h)(0x5A08758B)()
+F (drivers/Driver_ETH_MAC.h)(0x5A087592)()
+F (drivers/Driver_ETH_PHY.h)(0x5A08758E)()
+F (drivers/Driver_Flash.h)(0x5A087591)()
+F (drivers/Driver_I2C.h)(0x5A08758E)()
+F (drivers/Driver_MCI.h)(0x5A087592)()
+F (drivers/Driver_NAND.h)(0x5A087591)()
+F (drivers/Driver_SAI.h)(0x5A08758D)()
+F (drivers/Driver_SPI.h)(0x5A08758E)()
+F (drivers/Driver_USART.h)(0x5A087590)()
+F (drivers/Driver_USB.h)(0x5A087591)()
+F (drivers/Driver_USBD.h)(0x5A087590)()
+F (drivers/Driver_USBH.h)(0x5A087590)()
+F (drivers/fsl_clock.c)(0x5A087591)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I CMSIS -I board -I drivers -I freertos -I startup -I utilities --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -I.\RTE\_Blinky_Keil_Debug-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMKW41Z512xxx4 -DDEBUG -DCPU_MKW41Z512VHT4 -DCPU_MKW41Z512VHT4_cm0plus -DFSL_RTOS_FREE_RTOS -DSDK_CORE_ID_CORE0 -DSDK_OS_FREE_RTOS-o debug\fsl_clock.o --omf_browse debug\fsl_clock.crf --depend debug\fsl_clock.d)
+I (drivers/fsl_clock.h)(0x5A087591)
+I (drivers/fsl_common.h)(0x5A087591)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BE5B4)
+I (CMSIS\fsl_device_registers.h)(0x5A087590)
+I (CMSIS\MKW41Z4.h)(0x5A087592)
+I (CMSIS\core_cm0plus.h)(0x5A087591)
+I (CMSIS\core_cmInstr.h)(0x5A08758F)
+I (CMSIS\cmsis_armcc.h)(0x5A087591)
+I (CMSIS\core_cmFunc.h)(0x5A087590)
+I (CMSIS\system_MKW41Z4.h)(0x5A087590)
+I (CMSIS\MKW41Z4_features.h)(0x5A087590)
+F (drivers/fsl_clock.h)(0x5A087591)()
+F (drivers/fsl_common.c)(0x5A087590)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I CMSIS -I board -I drivers -I freertos -I startup -I utilities --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -I.\RTE\_Blinky_Keil_Debug-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMKW41Z512xxx4 -DDEBUG -DCPU_MKW41Z512VHT4 -DCPU_MKW41Z512VHT4_cm0plus -DFSL_RTOS_FREE_RTOS -DSDK_CORE_ID_CORE0 -DSDK_OS_FREE_RTOS-o debug\fsl_common.o --omf_browse debug\fsl_common.crf --depend debug\fsl_common.d)
+I (drivers/fsl_common.h)(0x5A087591)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BE5B4)
+I (CMSIS\fsl_device_registers.h)(0x5A087590)
+I (CMSIS\MKW41Z4.h)(0x5A087592)
+I (CMSIS\core_cm0plus.h)(0x5A087591)
+I (CMSIS\core_cmInstr.h)(0x5A08758F)
+I (CMSIS\cmsis_armcc.h)(0x5A087591)
+I (CMSIS\core_cmFunc.h)(0x5A087590)
+I (CMSIS\system_MKW41Z4.h)(0x5A087590)
+I (CMSIS\MKW41Z4_features.h)(0x5A087590)
+I (drivers/fsl_clock.h)(0x5A087591)
+I (utilities\fsl_debug_console.h)(0x5A08758F)
+F (drivers/fsl_common.h)(0x5A087591)()
+F (drivers/fsl_gpio.c)(0x5A08758F)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I CMSIS -I board -I drivers -I freertos -I startup -I utilities --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -I.\RTE\_Blinky_Keil_Debug-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMKW41Z512xxx4 -DDEBUG -DCPU_MKW41Z512VHT4 -DCPU_MKW41Z512VHT4_cm0plus -DFSL_RTOS_FREE_RTOS -DSDK_CORE_ID_CORE0 -DSDK_OS_FREE_RTOS-o debug\fsl_gpio.o --omf_browse debug\fsl_gpio.crf --depend debug\fsl_gpio.d)
+I (drivers/fsl_gpio.h)(0x5A087590)
+I (drivers/fsl_common.h)(0x5A087591)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BE5B4)
+I (CMSIS\fsl_device_registers.h)(0x5A087590)
+I (CMSIS\MKW41Z4.h)(0x5A087592)
+I (CMSIS\core_cm0plus.h)(0x5A087591)
+I (CMSIS\core_cmInstr.h)(0x5A08758F)
+I (CMSIS\cmsis_armcc.h)(0x5A087591)
+I (CMSIS\core_cmFunc.h)(0x5A087590)
+I (CMSIS\system_MKW41Z4.h)(0x5A087590)
+I (CMSIS\MKW41Z4_features.h)(0x5A087590)
+I (drivers/fsl_clock.h)(0x5A087591)
+F (drivers/fsl_gpio.h)(0x5A087590)()
+F (drivers/fsl_lpuart.c)(0x5A087591)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I CMSIS -I board -I drivers -I freertos -I startup -I utilities --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -I.\RTE\_Blinky_Keil_Debug-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMKW41Z512xxx4 -DDEBUG -DCPU_MKW41Z512VHT4 -DCPU_MKW41Z512VHT4_cm0plus -DFSL_RTOS_FREE_RTOS -DSDK_CORE_ID_CORE0 -DSDK_OS_FREE_RTOS-o debug\fsl_lpuart.o --omf_browse debug\fsl_lpuart.crf --depend debug\fsl_lpuart.d)
+I (drivers/fsl_lpuart.h)(0x5A087591)
+I (drivers/fsl_common.h)(0x5A087591)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BE5B4)
+I (CMSIS\fsl_device_registers.h)(0x5A087590)
+I (CMSIS\MKW41Z4.h)(0x5A087592)
+I (CMSIS\core_cm0plus.h)(0x5A087591)
+I (CMSIS\core_cmInstr.h)(0x5A08758F)
+I (CMSIS\cmsis_armcc.h)(0x5A087591)
+I (CMSIS\core_cmFunc.h)(0x5A087590)
+I (CMSIS\system_MKW41Z4.h)(0x5A087590)
+I (CMSIS\MKW41Z4_features.h)(0x5A087590)
+I (drivers/fsl_clock.h)(0x5A087591)
+F (drivers/fsl_lpuart.h)(0x5A087591)()
+F (drivers/fsl_lpuart_freertos.c)(0x5A087591)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I CMSIS -I board -I drivers -I freertos -I startup -I utilities --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -I.\RTE\_Blinky_Keil_Debug-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMKW41Z512xxx4 -DDEBUG -DCPU_MKW41Z512VHT4 -DCPU_MKW41Z512VHT4_cm0plus -DFSL_RTOS_FREE_RTOS -DSDK_CORE_ID_CORE0 -DSDK_OS_FREE_RTOS-o debug\fsl_lpuart_freertos.o --omf_browse debug\fsl_lpuart_freertos.crf --depend debug\fsl_lpuart_freertos.d)
+I (drivers/fsl_lpuart_freertos.h)(0x5A087591)
+I (freertos\FreeRTOSConfig.h)(0x5A08758F)
+I (drivers/fsl_lpuart.h)(0x5A087591)
+I (drivers/fsl_common.h)(0x5A087591)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BE5B4)
+I (CMSIS\fsl_device_registers.h)(0x5A087590)
+I (CMSIS\MKW41Z4.h)(0x5A087592)
+I (CMSIS\core_cm0plus.h)(0x5A087591)
+I (CMSIS\core_cmInstr.h)(0x5A08758F)
+I (CMSIS\cmsis_armcc.h)(0x5A087591)
+I (CMSIS\core_cmFunc.h)(0x5A087590)
+I (CMSIS\system_MKW41Z4.h)(0x5A087590)
+I (CMSIS\MKW41Z4_features.h)(0x5A087590)
+I (drivers/fsl_clock.h)(0x5A087591)
+I (freertos\FreeRTOS.h)(0x5A087591)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588BE5B4)
+I (freertos\projdefs.h)(0x5A087591)
+I (freertos\portable.h)(0x5A087591)
+I (freertos\deprecated_definitions.h)(0x5A087590)
+I (freertos\portmacro.h)(0x5A087592)
+I (freertos\mpu_wrappers.h)(0x5A087591)
+I (freertos\event_groups.h)(0x5A087590)
+I (freertos\timers.h)(0x5A08758B)
+I (freertos\task.h)(0x5A087592)
+I (freertos\list.h)(0x5A08758E)
+I (freertos\semphr.h)(0x5A087590)
+I (freertos\queue.h)(0x5A08758B)
+F (drivers/fsl_lpuart_freertos.h)(0x5A087591)()
+F (drivers/fsl_port.h)(0x5A087590)()
+F (freertos/ChangeLogKSDK.txt)(0x5A087591)()
+F (freertos/croutine.c)(0x5A087591)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I CMSIS -I board -I drivers -I freertos -I startup -I utilities --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -I.\RTE\_Blinky_Keil_Debug-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMKW41Z512xxx4 -DDEBUG -DCPU_MKW41Z512VHT4 -DCPU_MKW41Z512VHT4_cm0plus -DFSL_RTOS_FREE_RTOS -DSDK_CORE_ID_CORE0 -DSDK_OS_FREE_RTOS-o debug\croutine.o --omf_browse debug\croutine.crf --depend debug\croutine.d)
+I (freertos/FreeRTOS.h)(0x5A087591)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
+I (freertos/FreeRTOSConfig.h)(0x5A08758F)
+I (freertos/projdefs.h)(0x5A087591)
+I (freertos/portable.h)(0x5A087591)
+I (freertos/deprecated_definitions.h)(0x5A087590)
+I (freertos/portmacro.h)(0x5A087592)
+I (freertos/mpu_wrappers.h)(0x5A087591)
+I (freertos/task.h)(0x5A087592)
+I (freertos/list.h)(0x5A08758E)
+I (freertos/croutine.h)(0x5A087591)
+F (freertos/croutine.h)(0x5A087591)()
+F (freertos/deprecated_definitions.h)(0x5A087590)()
+F (freertos/event_groups.c)(0x5A087590)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I CMSIS -I board -I drivers -I freertos -I startup -I utilities --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -I.\RTE\_Blinky_Keil_Debug-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMKW41Z512xxx4 -DDEBUG -DCPU_MKW41Z512VHT4 -DCPU_MKW41Z512VHT4_cm0plus -DFSL_RTOS_FREE_RTOS -DSDK_CORE_ID_CORE0 -DSDK_OS_FREE_RTOS-o debug\event_groups.o --omf_browse debug\event_groups.crf --depend debug\event_groups.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588BE5B4)
+I (freertos/FreeRTOS.h)(0x5A087591)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
+I (freertos/FreeRTOSConfig.h)(0x5A08758F)
+I (freertos/projdefs.h)(0x5A087591)
+I (freertos/portable.h)(0x5A087591)
+I (freertos/deprecated_definitions.h)(0x5A087590)
+I (freertos/portmacro.h)(0x5A087592)
+I (freertos/mpu_wrappers.h)(0x5A087591)
+I (freertos/task.h)(0x5A087592)
+I (freertos/list.h)(0x5A08758E)
+I (freertos/timers.h)(0x5A08758B)
+I (freertos/event_groups.h)(0x5A087590)
+F (freertos/event_groups.h)(0x5A087590)()
+F (freertos/FreeRTOS.h)(0x5A087591)()
+F (freertos/FreeRTOS_for_Kinetis_SDK_v2.0.txt)(0x5A087591)()
+F (freertos/freertos_tasks_c_additions.h)(0x5A08758E)()
+F (freertos/FreeRTOSConfig.h)(0x5A08758F)()
+F (freertos/fsl_tickless_generic.h)(0x5A087591)()
+F (freertos/fsl_tickless_lptmr.c)(0x5A08758E)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I CMSIS -I board -I drivers -I freertos -I startup -I utilities --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -I.\RTE\_Blinky_Keil_Debug-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMKW41Z512xxx4 -DDEBUG -DCPU_MKW41Z512VHT4 -DCPU_MKW41Z512VHT4_cm0plus -DFSL_RTOS_FREE_RTOS -DSDK_CORE_ID_CORE0 -DSDK_OS_FREE_RTOS-o debug\fsl_tickless_lptmr.o --omf_browse debug\fsl_tickless_lptmr.crf --depend debug\fsl_tickless_lptmr.d)
+I (freertos/FreeRTOS.h)(0x5A087591)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
+I (freertos/FreeRTOSConfig.h)(0x5A08758F)
+I (freertos/projdefs.h)(0x5A087591)
+I (freertos/portable.h)(0x5A087591)
+I (freertos/deprecated_definitions.h)(0x5A087590)
+I (freertos/portmacro.h)(0x5A087592)
+I (freertos/mpu_wrappers.h)(0x5A087591)
+I (freertos/task.h)(0x5A087592)
+I (freertos/list.h)(0x5A08758E)
+I (freertos/fsl_tickless_generic.h)(0x5A087591)
+F (freertos/fsl_tickless_systick.c)(0x5A087590)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I CMSIS -I board -I drivers -I freertos -I startup -I utilities --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -I.\RTE\_Blinky_Keil_Debug-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMKW41Z512xxx4 -DDEBUG -DCPU_MKW41Z512VHT4 -DCPU_MKW41Z512VHT4_cm0plus -DFSL_RTOS_FREE_RTOS -DSDK_CORE_ID_CORE0 -DSDK_OS_FREE_RTOS-o debug\fsl_tickless_systick.o --omf_browse debug\fsl_tickless_systick.crf --depend debug\fsl_tickless_systick.d)
+I (freertos/FreeRTOS.h)(0x5A087591)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
+I (freertos/FreeRTOSConfig.h)(0x5A08758F)
+I (freertos/projdefs.h)(0x5A087591)
+I (freertos/portable.h)(0x5A087591)
+I (freertos/deprecated_definitions.h)(0x5A087590)
+I (freertos/portmacro.h)(0x5A087592)
+I (freertos/mpu_wrappers.h)(0x5A087591)
+I (freertos/task.h)(0x5A087592)
+I (freertos/list.h)(0x5A08758E)
+I (freertos/fsl_tickless_generic.h)(0x5A087591)
+F (freertos/heap_1.c)(0x5A08758F)()
+F (freertos/heap_2.c)(0x5A087591)()
+F (freertos/heap_3.c)(0x5A08758F)()
+F (freertos/heap_4.c)(0x5A087591)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I CMSIS -I board -I drivers -I freertos -I startup -I utilities --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -I.\RTE\_Blinky_Keil_Debug-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMKW41Z512xxx4 -DDEBUG -DCPU_MKW41Z512VHT4 -DCPU_MKW41Z512VHT4_cm0plus -DFSL_RTOS_FREE_RTOS -DSDK_CORE_ID_CORE0 -DSDK_OS_FREE_RTOS-o debug\heap_4.o --omf_browse debug\heap_4.crf --depend debug\heap_4.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588BE5B4)
+I (freertos/FreeRTOS.h)(0x5A087591)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
+I (freertos/FreeRTOSConfig.h)(0x5A08758F)
+I (freertos/projdefs.h)(0x5A087591)
+I (freertos/portable.h)(0x5A087591)
+I (freertos/deprecated_definitions.h)(0x5A087590)
+I (freertos/portmacro.h)(0x5A087592)
+I (freertos/mpu_wrappers.h)(0x5A087591)
+I (freertos/task.h)(0x5A087592)
+I (freertos/list.h)(0x5A08758E)
+F (freertos/heap_5.c)(0x5A08758F)()
+F (freertos/list.c)(0x5A08758F)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I CMSIS -I board -I drivers -I freertos -I startup -I utilities --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -I.\RTE\_Blinky_Keil_Debug-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMKW41Z512xxx4 -DDEBUG -DCPU_MKW41Z512VHT4 -DCPU_MKW41Z512VHT4_cm0plus -DFSL_RTOS_FREE_RTOS -DSDK_CORE_ID_CORE0 -DSDK_OS_FREE_RTOS-o debug\list.o --omf_browse debug\list.crf --depend debug\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588BE5B4)
+I (freertos/FreeRTOS.h)(0x5A087591)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
+I (freertos/FreeRTOSConfig.h)(0x5A08758F)
+I (freertos/projdefs.h)(0x5A087591)
+I (freertos/portable.h)(0x5A087591)
+I (freertos/deprecated_definitions.h)(0x5A087590)
+I (freertos/portmacro.h)(0x5A087592)
+I (freertos/mpu_wrappers.h)(0x5A087591)
+I (freertos/list.h)(0x5A08758E)
+F (freertos/list.h)(0x5A08758E)()
+F (freertos/mpu_prototypes.h)(0x5A087591)()
+F (freertos/mpu_wrappers.h)(0x5A087591)()
+F (freertos/port.c)(0x5A087591)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I CMSIS -I board -I drivers -I freertos -I startup -I utilities --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -I.\RTE\_Blinky_Keil_Debug-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMKW41Z512xxx4 -DDEBUG -DCPU_MKW41Z512VHT4 -DCPU_MKW41Z512VHT4_cm0plus -DFSL_RTOS_FREE_RTOS -DSDK_CORE_ID_CORE0 -DSDK_OS_FREE_RTOS-o debug\port.o --omf_browse debug\port.crf --depend debug\port.d)
+I (freertos/FreeRTOS.h)(0x5A087591)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
+I (freertos/FreeRTOSConfig.h)(0x5A08758F)
+I (freertos/projdefs.h)(0x5A087591)
+I (freertos/portable.h)(0x5A087591)
+I (freertos/deprecated_definitions.h)(0x5A087590)
+I (freertos/portmacro.h)(0x5A087592)
+I (freertos/mpu_wrappers.h)(0x5A087591)
+I (freertos/task.h)(0x5A087592)
+I (freertos/list.h)(0x5A08758E)
+I (freertos/fsl_tickless_generic.h)(0x5A087591)
+F (freertos/portable.h)(0x5A087591)()
+F (freertos/portmacro.h)(0x5A087592)()
+F (freertos/projdefs.h)(0x5A087591)()
+F (freertos/queue.c)(0x5A08758C)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I CMSIS -I board -I drivers -I freertos -I startup -I utilities --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -I.\RTE\_Blinky_Keil_Debug-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMKW41Z512xxx4 -DDEBUG -DCPU_MKW41Z512VHT4 -DCPU_MKW41Z512VHT4_cm0plus -DFSL_RTOS_FREE_RTOS -DSDK_CORE_ID_CORE0 -DSDK_OS_FREE_RTOS-o debug\queue.o --omf_browse debug\queue.crf --depend debug\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BE5B4)
+I (freertos/FreeRTOS.h)(0x5A087591)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
+I (freertos/FreeRTOSConfig.h)(0x5A08758F)
+I (freertos/projdefs.h)(0x5A087591)
+I (freertos/portable.h)(0x5A087591)
+I (freertos/deprecated_definitions.h)(0x5A087590)
+I (freertos/portmacro.h)(0x5A087592)
+I (freertos/mpu_wrappers.h)(0x5A087591)
+I (freertos/task.h)(0x5A087592)
+I (freertos/list.h)(0x5A08758E)
+I (freertos/queue.h)(0x5A08758B)
+F (freertos/queue.h)(0x5A08758B)()
+F (freertos/semphr.h)(0x5A087590)()
+F (freertos/StackMacros.h)(0x5A087590)()
+F (freertos/task.h)(0x5A087592)()
+F (freertos/tasks.c)(0x5A08758F)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I CMSIS -I board -I drivers -I freertos -I startup -I utilities --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -I.\RTE\_Blinky_Keil_Debug-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMKW41Z512xxx4 -DDEBUG -DCPU_MKW41Z512VHT4 -DCPU_MKW41Z512VHT4_cm0plus -DFSL_RTOS_FREE_RTOS -DSDK_CORE_ID_CORE0 -DSDK_OS_FREE_RTOS-o debug\tasks.o --omf_browse debug\tasks.crf --depend debug\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BE5B4)
+I (freertos/FreeRTOS.h)(0x5A087591)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
+I (freertos/FreeRTOSConfig.h)(0x5A08758F)
+I (freertos/projdefs.h)(0x5A087591)
+I (freertos/portable.h)(0x5A087591)
+I (freertos/deprecated_definitions.h)(0x5A087590)
+I (freertos/portmacro.h)(0x5A087592)
+I (freertos/mpu_wrappers.h)(0x5A087591)
+I (freertos/task.h)(0x5A087592)
+I (freertos/list.h)(0x5A08758E)
+I (freertos/timers.h)(0x5A08758B)
+I (freertos/StackMacros.h)(0x5A087590)
+F (freertos/timers.c)(0x5A08758D)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I CMSIS -I board -I drivers -I freertos -I startup -I utilities --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -I.\RTE\_Blinky_Keil_Debug-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMKW41Z512xxx4 -DDEBUG -DCPU_MKW41Z512VHT4 -DCPU_MKW41Z512VHT4_cm0plus -DFSL_RTOS_FREE_RTOS -DSDK_CORE_ID_CORE0 -DSDK_OS_FREE_RTOS-o debug\timers.o --omf_browse debug\timers.crf --depend debug\timers.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588BE5B4)
+I (freertos/FreeRTOS.h)(0x5A087591)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
+I (freertos/FreeRTOSConfig.h)(0x5A08758F)
+I (freertos/projdefs.h)(0x5A087591)
+I (freertos/portable.h)(0x5A087591)
+I (freertos/deprecated_definitions.h)(0x5A087590)
+I (freertos/portmacro.h)(0x5A087592)
+I (freertos/mpu_wrappers.h)(0x5A087591)
+I (freertos/task.h)(0x5A087592)
+I (freertos/list.h)(0x5A08758E)
+I (freertos/queue.h)(0x5A08758B)
+I (freertos/timers.h)(0x5A08758B)
+F (freertos/timers.h)(0x5A08758B)()
+F (freertos/License/license.txt)(0x5A08758F)()
+F (freertos/Source/portable/Keil/See-also-the-RVDS-directory.txt)(0x5A08758D)()
+F (source/main.c)(0x5A08777B)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I CMSIS -I board -I drivers -I freertos -I startup -I utilities --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -I.\RTE\_Blinky_Keil_Debug-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMKW41Z512xxx4 -DDEBUG -DCPU_MKW41Z512VHT4 -DCPU_MKW41Z512VHT4_cm0plus -DFSL_RTOS_FREE_RTOS -DSDK_CORE_ID_CORE0 -DSDK_OS_FREE_RTOS-o debug\main.o --omf_browse debug\main.crf --depend debug\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BE5B4)
+I (board\board.h)(0x5A087592)
+I (board\pin_mux.h)(0x5A087589)
+I (board\clock_config.h)(0x5A087589)
+I (drivers\fsl_common.h)(0x5A087591)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
+I (CMSIS\fsl_device_registers.h)(0x5A087590)
+I (CMSIS\MKW41Z4.h)(0x5A087592)
+I (CMSIS\core_cm0plus.h)(0x5A087591)
+I (CMSIS\core_cmInstr.h)(0x5A08758F)
+I (CMSIS\cmsis_armcc.h)(0x5A087591)
+I (CMSIS\core_cmFunc.h)(0x5A087590)
+I (CMSIS\system_MKW41Z4.h)(0x5A087590)
+I (CMSIS\MKW41Z4_features.h)(0x5A087590)
+I (drivers\fsl_clock.h)(0x5A087591)
+I (drivers\fsl_gpio.h)(0x5A087590)
+I (freertos\FreeRTOS.h)(0x5A087591)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588BE5B4)
+I (freertos\FreeRTOSConfig.h)(0x5A08758F)
+I (freertos\projdefs.h)(0x5A087591)
+I (freertos\portable.h)(0x5A087591)
+I (freertos\deprecated_definitions.h)(0x5A087590)
+I (freertos\portmacro.h)(0x5A087592)
+I (freertos\mpu_wrappers.h)(0x5A087591)
+I (freertos\task.h)(0x5A087592)
+I (freertos\list.h)(0x5A08758E)
+I (freertos\queue.h)(0x5A08758B)
+I (freertos\timers.h)(0x5A08758B)
+F (startup/startup_MKW41Z4.s)(0x5A087590)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1" -I CMSIS -I board -I drivers -I freertos -I startup -I utilities-I.\RTE\_Blinky_Keil_Debug-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524" --pd "MKW41Z512xxx4 SETA 1" --pd "DEBUG SETA 1" --pd "CPU_MKW41Z512VHT4 SETA 1" --pd "CPU_MKW41Z512VHT4_cm0plus SETA 1" --pd "FSL_RTOS_FREE_RTOS SETA 1" --pd "SDK_CORE_ID_CORE0 SETA 1" --pd "SDK_OS_FREE_RTOS SETA 1"--list .\output\startup_mkw41z4.lst -o debug\startup_mkw41z4.o --depend debug\startup_mkw41z4.d)
+F (utilities/fsl_debug_console.c)(0x5A08758F)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I CMSIS -I board -I drivers -I freertos -I startup -I utilities --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -I.\RTE\_Blinky_Keil_Debug-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DMKW41Z512xxx4 -DDEBUG -DCPU_MKW41Z512VHT4 -DCPU_MKW41Z512VHT4_cm0plus -DFSL_RTOS_FREE_RTOS -DSDK_CORE_ID_CORE0 -DSDK_OS_FREE_RTOS-o debug\fsl_debug_console.o --omf_browse debug\fsl_debug_console.crf --depend debug\fsl_debug_console.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x588BE5B4)
+I (utilities/fsl_debug_console.h)(0x5A08758F)
+I (drivers\fsl_common.h)(0x5A087591)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BE5B4)
+I (CMSIS\fsl_device_registers.h)(0x5A087590)
+I (CMSIS\MKW41Z4.h)(0x5A087592)
+I (CMSIS\core_cm0plus.h)(0x5A087591)
+I (CMSIS\core_cmInstr.h)(0x5A08758F)
+I (CMSIS\cmsis_armcc.h)(0x5A087591)
+I (CMSIS\core_cmFunc.h)(0x5A087590)
+I (CMSIS\system_MKW41Z4.h)(0x5A087590)
+I (CMSIS\MKW41Z4_features.h)(0x5A087590)
+I (drivers\fsl_clock.h)(0x5A087591)
+I (drivers\fsl_lpuart.h)(0x5A087591)
+F (utilities/fsl_debug_console.h)(0x5A08758F)()

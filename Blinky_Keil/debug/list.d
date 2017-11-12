@@ -1,0 +1,12 @@
+debug\list.o: freertos/list.c
+debug\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+debug\list.o: freertos/FreeRTOS.h
+debug\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+debug\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+debug\list.o: freertos/FreeRTOSConfig.h
+debug\list.o: freertos/projdefs.h
+debug\list.o: freertos/portable.h
+debug\list.o: freertos/deprecated_definitions.h
+debug\list.o: freertos/portmacro.h
+debug\list.o: freertos/mpu_wrappers.h
+debug\list.o: freertos/list.h

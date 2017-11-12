@@ -1,0 +1,17 @@
+debug\clock_config.o: board/clock_config.c
+debug\clock_config.o: board/clock_config.h
+debug\clock_config.o: drivers\fsl_common.h
+debug\clock_config.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+debug\clock_config.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+debug\clock_config.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+debug\clock_config.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+debug\clock_config.o: CMSIS\fsl_device_registers.h
+debug\clock_config.o: CMSIS\MKW41Z4.h
+debug\clock_config.o: CMSIS\core_cm0plus.h
+debug\clock_config.o: CMSIS\core_cmInstr.h
+debug\clock_config.o: CMSIS\cmsis_armcc.h
+debug\clock_config.o: CMSIS\core_cmFunc.h
+debug\clock_config.o: CMSIS\system_MKW41Z4.h
+debug\clock_config.o: CMSIS\MKW41Z4_features.h
+debug\clock_config.o: drivers\fsl_clock.h
+debug\clock_config.o: drivers\fsl_common.h

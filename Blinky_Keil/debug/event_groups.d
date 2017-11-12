@@ -1,0 +1,15 @@
+debug\event_groups.o: freertos/event_groups.c
+debug\event_groups.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+debug\event_groups.o: freertos/FreeRTOS.h
+debug\event_groups.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+debug\event_groups.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+debug\event_groups.o: freertos/FreeRTOSConfig.h
+debug\event_groups.o: freertos/projdefs.h
+debug\event_groups.o: freertos/portable.h
+debug\event_groups.o: freertos/deprecated_definitions.h
+debug\event_groups.o: freertos/portmacro.h
+debug\event_groups.o: freertos/mpu_wrappers.h
+debug\event_groups.o: freertos/task.h
+debug\event_groups.o: freertos/list.h
+debug\event_groups.o: freertos/timers.h
+debug\event_groups.o: freertos/event_groups.h

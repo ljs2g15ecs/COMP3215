@@ -1,0 +1,15 @@
+debug\queue.o: freertos/queue.c
+debug\queue.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+debug\queue.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+debug\queue.o: freertos/FreeRTOS.h
+debug\queue.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+debug\queue.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+debug\queue.o: freertos/FreeRTOSConfig.h
+debug\queue.o: freertos/projdefs.h
+debug\queue.o: freertos/portable.h
+debug\queue.o: freertos/deprecated_definitions.h
+debug\queue.o: freertos/portmacro.h
+debug\queue.o: freertos/mpu_wrappers.h
+debug\queue.o: freertos/task.h
+debug\queue.o: freertos/list.h
+debug\queue.o: freertos/queue.h

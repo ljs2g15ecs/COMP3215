@@ -1,0 +1,27 @@
+--cpu Cortex-M0+
+"debug\board.o"
+"debug\clock_config.o"
+"debug\pin_mux.o"
+"debug\system_mkw41z4.o"
+"debug\fsl_clock.o"
+"debug\fsl_common.o"
+"debug\fsl_gpio.o"
+"debug\fsl_lpuart.o"
+"debug\fsl_lpuart_freertos.o"
+"debug\croutine.o"
+"debug\event_groups.o"
+"debug\fsl_tickless_lptmr.o"
+"debug\fsl_tickless_systick.o"
+"debug\heap_4.o"
+"debug\list.o"
+"debug\port.o"
+"debug\queue.o"
+"debug\tasks.o"
+"debug\timers.o"
+"debug\main.o"
+"debug\startup_mkw41z4.o"
+"debug\fsl_debug_console.o"
+--library_type=microlib --diag_suppress 6314 --strict --scatter ""MKW41Z512xxx4_flash.scf""
+--remove --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\output\cproject_templates.map" -o debug\cproject_templates.out

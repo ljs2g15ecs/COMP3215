@@ -1,0 +1,14 @@
+debug\croutine.o: freertos/croutine.c
+debug\croutine.o: freertos/FreeRTOS.h
+debug\croutine.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+debug\croutine.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+debug\croutine.o: freertos/FreeRTOSConfig.h
+debug\croutine.o: freertos/projdefs.h
+debug\croutine.o: freertos/portable.h
+debug\croutine.o: freertos/deprecated_definitions.h
+debug\croutine.o: freertos/portmacro.h
+debug\croutine.o: freertos/mpu_wrappers.h
+debug\croutine.o: freertos/task.h
+debug\croutine.o: freertos/list.h
+debug\croutine.o: freertos/croutine.h
+debug\croutine.o: freertos/list.h

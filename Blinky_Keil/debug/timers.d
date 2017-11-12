@@ -1,0 +1,15 @@
+debug\timers.o: freertos/timers.c
+debug\timers.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+debug\timers.o: freertos/FreeRTOS.h
+debug\timers.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+debug\timers.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+debug\timers.o: freertos/FreeRTOSConfig.h
+debug\timers.o: freertos/projdefs.h
+debug\timers.o: freertos/portable.h
+debug\timers.o: freertos/deprecated_definitions.h
+debug\timers.o: freertos/portmacro.h
+debug\timers.o: freertos/mpu_wrappers.h
+debug\timers.o: freertos/task.h
+debug\timers.o: freertos/list.h
+debug\timers.o: freertos/queue.h
+debug\timers.o: freertos/timers.h
