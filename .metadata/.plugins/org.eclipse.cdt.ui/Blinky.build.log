@@ -1,0 +1,15 @@
+15:29:34 **** Incremental Build of configuration Default for project Blinky ****
+make all 
+Building file: ../utilities/fsl_debug_console.c
+Invoking: GCC C Compiler
+gcc -O2 -g -Wall -c -fmessage-length=0 -MMD -MP -MF"utilities/fsl_debug_console.d" -MT"utilities/fsl_debug_console.o" -o "utilities/fsl_debug_console.o" "../utilities/fsl_debug_console.c"
+In file included from ../utilities/fsl_debug_console.c:67:0:
+../utilities/fsl_debug_console.h:47:24: fatal error: fsl_common.h: No such file or directory
+ #include "fsl_common.h"
+                        ^
+compilation terminated.
+make: *** [utilities/fsl_debug_console.o] Error 1
+utilities/subdir.mk:21: recipe for target 'utilities/fsl_debug_console.o' failed
+
+15:29:35 Build Finished (took 844ms)
+

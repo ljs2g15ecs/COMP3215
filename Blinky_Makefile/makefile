@@ -2,30 +2,30 @@
 CC      	= arm-none-eabi-gcc
 OBJCOPY 	= arm-none-eabi-objcopy
 
-SRC 		= Blinky
-BUILD 		= GCC_Make
+SRC 		= 
+BUILD 		= Build
 NAME		= $(BUILD)/Blinky
 
 ## Platform and optimization options
 AFLAGS		= -mthumb -mcpu=cortex-m0plus
 CFLAGS		= -Wall -ffreestanding $(AFLAGS) -DCPU_MKW41Z512VHT4
-LFLAGS		= -T$(SRC)/MKW41Z512xxx4_flash.ld $(AFLAGS) --specs=nosys.specs
+LFLAGS		= -T$(SRC)MKW41Z512xxx4_flash.ld $(AFLAGS) --specs=nosys.specs
 
-src 		= $(wildcard $(SRC)/board/*.c) \
-			  $(wildcard $(SRC)/CMSIS/*.c) \
-			  $(wildcard $(SRC)/drivers/*.c) \
-			  $(wildcard $(SRC)/freertos/*.c) \
-			  $(wildcard $(SRC)/source/*.c) \
-			  $(wildcard $(SRC)/utilities/*.c)
-start		= $(SRC)/startup/startup_MKW41Z4.S
+src 		= $(wildcard $(SRC)board/*.c) \
+			  $(wildcard $(SRC)CMSIS/*.c) \
+			  $(wildcard $(SRC)drivers/*.c) \
+			  $(wildcard $(SRC)freertos/*.c) \
+			  $(wildcard $(SRC)source/*.c) \
+			  $(wildcard $(SRC)utilities/*.c)
+start		= $(SRC)startup/startup_MKW41Z4.S
 			  
 
-INC			= -I$(SRC)/board \
-			  -I$(SRC)/CMSIS \
-			  -I$(SRC)/drivers \
-			  -I$(SRC)/freertos \
-			  -I$(SRC)/source \
-			  -I$(SRC)/utilities
+INC			= -I$(SRC)board \
+			  -I$(SRC)CMSIS \
+			  -I$(SRC)drivers \
+			  -I$(SRC)freertos \
+			  -I$(SRC)source \
+			  -I$(SRC)utilities
 
 obj			= $(src:.c=.o) $(start:.S=.o)
 			

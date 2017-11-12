@@ -17,3 +17,42 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-12 15:15:23.206
+!MESSAGE Indexed 'Blinky' (21 sources, 92 headers) in 4.85 sec: 8,186 declarations; 17,084 references; 0 unresolved inclusions; 80 syntax errors; 813 unresolved names (3.1%)
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-12 15:20:16.188
+!MESSAGE Unable to find manifest for chip 'MKW41Z512xxx4' of project 'Blinky'.
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-12 15:20:19.594
+!MESSAGE Indexed 'Blinky' (21 sources, 92 headers) in 2.45 sec: 8,175 declarations; 17,046 references; 0 unresolved inclusions; 80 syntax errors; 813 unresolved names (3.1%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-12 15:25:48.332
+!MESSAGE Indexed 'Blinky' (21 sources, 92 headers) in 2.2 sec: 8,175 declarations; 17,046 references; 0 unresolved inclusions; 80 syntax errors; 813 unresolved names (3.1%)
+!SESSION 2017-11-12 15:26:48.069 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\lewis\Documents\Part III\COMP3215\COMP3215-Lab-1
+
+!ENTRY org.eclipse.ui 4 4 2017-11-12 15:26:59.483
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2017-11-12 15:26:59.487
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-12 15:27:03.248
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\lewis'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-12 15:27:58.635
+!MESSAGE Indexed 'Blinky' (21 sources, 83 headers) in 2.61 sec: 8,268 declarations; 17,286 references; 0 unresolved inclusions; 79 syntax errors; 813 unresolved names (3.1%)
+
+!ENTRY org.eclipse.core.resources 2 2 2017-11-12 15:32:56.113
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2017-11-12 15:32:56.113
+!MESSAGE The project description file (.project) for 'Blinky' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.

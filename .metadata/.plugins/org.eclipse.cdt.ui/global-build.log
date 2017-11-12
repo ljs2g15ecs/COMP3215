@@ -1,0 +1,67 @@
+15:15:34 **** Build of configuration Debug for project Blinky ****
+make -r -j8 all 
+make: *** No rule to make target `all'.  Stop.
+15:21:27 **** Build of configuration Debug for project Blinky ****
+make -r -j8 all 
+make: *** No rule to make target `all'.  Stop.
+15:21:54 **** Incremental Build of configuration Debug for project Blinky ****
+make -r -j8 all 
+Building file: ../startup/startup_MKW41Z4.S
+Building file: ../freertos/croutine.c
+Building file: ../utilities/fsl_debug_console.c
+Building file: ../freertos/event_groups.c
+Building file: ../freertos/fsl_tickless_systick.c
+Building file: ../freertos/heap_1.c
+Building file: ../freertos/fsl_tickless_lptmr.c
+Building file: ../source/main.c
+Invoking: MCU Assembler
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -c -x assembler-with-cpp -D__REDLIB__ -DDEBUG -D__CODE_RED -g3 -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -specs=redlib.specs -o "startup/startup_MKW41Z4.o" "../startup/startup_MKW41Z4.S"
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"freertos/croutine.d" -MT"freertos/croutine.o" -MT"freertos/croutine.d" -o "freertos/croutine.o" "../freertos/croutine.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"utilities/fsl_debug_console.d" -MT"utilities/fsl_debug_console.o" -MT"utilities/fsl_debug_console.d" -o "utilities/fsl_debug_console.o" "../utilities/fsl_debug_console.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"freertos/fsl_tickless_systick.d" -MT"freertos/fsl_tickless_systick.o" -MT"freertos/fsl_tickless_systick.d" -o "freertos/fsl_tickless_systick.o" "../freertos/fsl_tickless_systick.c"
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"source/main.d" -MT"source/main.o" -MT"source/main.d" -o "source/main.o" "../source/main.c"
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"freertos/heap_1.d" -MT"freertos/heap_1.o" -MT"freertos/heap_1.d" -o "freertos/heap_1.o" "../freertos/heap_1.c"
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"freertos/fsl_tickless_lptmr.d" -MT"freertos/fsl_tickless_lptmr.o" -MT"freertos/fsl_tickless_lptmr.d" -o "freertos/fsl_tickless_lptmr.o" "../freertos/fsl_tickless_lptmr.c"
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"freertos/event_groups.d" -MT"freertos/event_groups.o" -MT"freertos/event_groups.d" -o "freertos/event_groups.o" "../freertos/event_groups.c"
+../source/main.c:7:21: fatal error: board.h: No such file or directory
+compilation terminated.
+In file included from ../utilities/fsl_debug_console.c:67:0:
+../utilities/fsl_debug_console.h:47:24: fatal error: fsl_common.h: No such file or directory
+compilation terminated.
+make: *** [source/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [utilities/fsl_debug_console.o] Error 1
+Finished building: ../freertos/croutine.c
+ 
+Finished building: ../startup/startup_MKW41Z4.S
+Finished building: ../freertos/fsl_tickless_systick.c
+Finished building: ../freertos/event_groups.c
+Finished building: ../freertos/fsl_tickless_lptmr.c
+ 
+ 
+ 
+ 
+Finished building: ../freertos/heap_1.c
+ 
+15:28:56 **** Build of configuration Default for project Blinky ****
+make all 
+make: *** No rule to make target 'all'.  Stop.
+15:29:34 **** Incremental Build of configuration Default for project Blinky ****
+make all 
+Building file: ../utilities/fsl_debug_console.c
+Invoking: GCC C Compiler
+gcc -O2 -g -Wall -c -fmessage-length=0 -MMD -MP -MF"utilities/fsl_debug_console.d" -MT"utilities/fsl_debug_console.o" -o "utilities/fsl_debug_console.o" "../utilities/fsl_debug_console.c"
+In file included from ../utilities/fsl_debug_console.c:67:0:
+../utilities/fsl_debug_console.h:47:24: fatal error: fsl_common.h: No such file or directory
+ #include "fsl_common.h"
+                        ^
+compilation terminated.
+make: *** [utilities/fsl_debug_console.o] Error 1
+utilities/subdir.mk:21: recipe for target 'utilities/fsl_debug_console.o' failed
